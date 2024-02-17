@@ -253,7 +253,7 @@ function Prediction() {
                 </div>
               </form>)
               : (
-                <div className='text-zinc-100 w-[35vw] mt-[3vw] min-w-[250px] backdrop-blur-sm bg-blue-900/60 rounded-lg flx justify-center items-center'>
+                <div className='text-zinc-100 w-[35vw] mt-[3vw] min-w-[250px] backdrop-blur-sm bg-blue-900/60 rounded-lg flex justify-center items-center'>
                   {Prediction && Prediction.error ? (
                     <div>Error: {Prediction.error}</div>
                   ) : (
