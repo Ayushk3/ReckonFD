@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+    font-family: mediped;
+    src: url(./Fonts/Rejouice-Headline.ttf);
+}
+
+*{
+    font-family: mediped;
+}
