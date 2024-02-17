@@ -12,7 +12,7 @@ function News() {
             try {
                 setloader(true);
                 const response = await fetch(
-                    `https://newsapi.org/v2/top-headlines?country=in&category=health&apiKey=${API_KEY}`
+                    `https://saurav.tech/NewsAPI/top-headlines/category/health/in.json`
                 );
 
                 if (!response.ok) {
