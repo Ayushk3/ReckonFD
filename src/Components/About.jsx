@@ -34,7 +34,7 @@ function About() {
                         </button></Link>
                 </div>
                 {/* <div className='w-full md:w-1/2 h-[70vh] bg-cover bg-center rounded-3xl cursor-pointer justify-center items-center hidden md:block  lg:block' style={{ backgroundImage: `url(https://images.pexels.com/photos/3936360/pexels-photo-3936360.jpeg?auto=compress&cs=tinysrgb&w=800)` }}></div> */}
-                <div className=''><RotatingCube /></div>
+                <div className='hidden lg:flex md:flex items-center'><RotatingCube /></div>
             </div>
 
         </div>

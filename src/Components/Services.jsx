@@ -5,7 +5,7 @@ function Services() {
     const [hover1, sethover1] = useState(false);
     const [hover2, sethover2] = useState(false);
     return (
-        <div className='w-full border-t-2 rounded-r-[2vw] rounded-l-[2vw] flex flex-col py-20 mt-[2.5vw]' style={{ background: 'linear-gradient(45deg, rgba(0,0,34,1) 43%, rgba(10,31,60,1) 90%,rgba(10,31,60,1) 90%, rgba(10,31,60,1) 95%)' }}>
+        <div className='w-full border-t-2 rounded-r-[2vw] rounded-l-[2vw] flex flex-col py-20 mt-[6vw]' style={{ background: 'linear-gradient(45deg, rgba(0,0,34,1) 43%, rgba(10,31,60,1) 90%,rgba(10,31,60,1) 90%, rgba(10,31,60,1) 95%)' }}>
             <div className='w-full px-20 border-b-[1px] border-zinc-400 pb-[4vw]'>
                 <h1 className='text-[8vw] text-white  tracking-tight'>Reports </h1>
             </div>
