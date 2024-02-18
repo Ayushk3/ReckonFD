@@ -17,7 +17,7 @@ const aboutUsData = [
     {
         title: 'Team',
         image: 'https://images.unsplash.com/photo-1562577308-c8b2614b9b9a?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHRlYW18ZW58MHx8MHx8fDA%3D',
-        content: 'Ayush Kumar # Abhishek Ranjan # Aakash Runthala # Alok Kumar  ',
+        content: 'Ayush Kumar # Abhishek Ranjan #  Alok Kumar # Aakash Runthala  ',
     },
 ];
 
