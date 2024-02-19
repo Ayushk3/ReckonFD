@@ -30,8 +30,8 @@ function App() {
   return (
     <div>
       {showLoader ? (
-        <div className='min-h-screen min-w-screen justify-center items-center' style={{ background: 'linear-gradient(45deg, rgba(0,0,34,1) 43%, rgba(10,31,60,1) 90%,rgba(10,31,60,1) 90%, rgba(10,31,60,1) 95%)' }}>
-          <div className="pl-[35vw] pt-[8vw]">
+        <div className='min-h-screen min-w-screen flex justify-center items-center' style={{ background: 'linear-gradient(45deg, rgba(0,0,34,1) 43%, rgba(10,31,60,1) 90%,rgba(10,31,60,1) 90%, rgba(10,31,60,1) 95%)' }}>
+          <div >
             <RotatingCube />
           </div>
         </div>
