@@ -53,6 +53,7 @@ const SignupForm = (props) => {
       });
 
       toast.success("Account Created");
+      toast.success("Signed Up Successfully");
       navigate("/ContactUs");
     } catch (error) {
       setIsLoggedIn(false);
